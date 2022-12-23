@@ -24,12 +24,12 @@ if (flutterVersionName == null) {
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
-//apply plugin:  'com.google.gms.google-services'
+apply plugin:  'com.google.gms.google-services'
 
 plugins {
     id 'com.android.application'
 
-    // Add the Google services Gradle plugin
+//    Add the Google services Gradle plugin
     id 'com.google.gms.google-services'
 
 }
